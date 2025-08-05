@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SessionStorage</h1>
+    <!-- <h2 id="hh1>"></h2> -->
+    <h2 id="hh2"></h2>
+    <button  onclick="sessionStorage.setItem('fname','Swati')">Set Item</button>
+    <button onclick="sessionStorage.getItem('hh2').innerHTML=sessionStorage.getItem('lname')">Get Item</button>
+    <button onclick="sessionStorage.removeItem('lname')">Remove Item</button>
+<h1>Local Storage</h1>
+    <button onclick="localStorage.setItem('lname','Mimi')">setItem</button>
+    <button onclick="document.getElementById('hh2').innerHTML=localStorage.getItem('lname')">getItem</button>
+    <button onclick="localStorage.removeItem('lname')">Remove Item</button>
+</body>
+</html>

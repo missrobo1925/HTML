@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewpoint" content="width-width,initial-scale=1.0">
+</head>
+<body>
+    <form method="POST">
+        <table>
+            <tr>
+               
+                <td><label type ="text" >Name</label></td>
+                <td><input type="text" name ="name" minlength="2" maxlength="10" required/></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type ="number" name ="AGE" min="18" max="100" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>eMail</td>
+                <td>
+                    <input type ="email" name ="email" />
+                </td>
+            </tr>
+            <tr>
+                <td>DOJ</td>
+                <td>
+                    <input type ="date" name ="DOJ" />
+                </td>
+            </tr>
+            <tr>
+                <td>FavColor</td>
+                <td>
+                    <input type ="color" name ="FavColor"/>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type ="url" name ="website"/>
+                    <input type ="range"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type ="password" name ="password"/></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name ="Address" rows="4" cols ="50">  </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type ="radio" name ="gender" value="male">Male
+                    <input type ="radio" name ="gender" value="male">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    <input type ="checkbox" name ="read" value="male">Reading
+                    <input type ="checkbox" name ="travel" value="male">Travelling
+                    <input type ="checkbox" name ="game" value="male">Gaming
+                </td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <select name =" Qualification">
+                    <option value ="bachelor">Bachelor's</option>
+                    <option value ="master">Master </option>
+                    <option value ="phd">phd</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input list="browsers" name ="browser" id="browser" />
+                <datalist id="browsers">
+                    <option value="edge">
+                        <option value="chrome">
+                            <option value ="opera">
+                                <option value="safari">
+                </datalist></td>
+            </tr>
+            <tr>
+                <td>Resume</td>
+                <td><input type="file" name ="resume"/></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type ="reset" value ="Reset"/>
+                </td>
+                <td>
+                    <input type ="submit" value ="Submit"/>
+                </td>
+            </tr>
+        </table>
+    <br/>
+    </form>
+    <input type="button" value="Click Me" onclick="alert('HTML 4 button clicked')"/>
+    <button onclick="alert('HTML5 button clicked')">Click ME</button>
+    <label for="file"> Downloading progress:</label>
+    <progress if="file" value="22" max="100"></progress>
+</body>
+
+</html>
